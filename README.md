@@ -27,7 +27,9 @@ To try out this project,
 
 ## Limitations of DeepL html tag handling
 
-Here are some limitations of DeepL that I've discovered while experimenting with this demo, with `tagHandling='html'`, which i have changed to `tagHandling='xml'` eventually. Read on if you're keen!
+Here are some limitations of DeepL that I've discovered while experimenting with this demo, with `tagHandling='html'`, which i have changed to `tagHandling='xml'` eventually. (Check out commit 3e6732b25c1a1f6c9814247dc3d93392eca59ba3 for the differences) 
+
+Read on if you're keen!
 
 ### Excluding specific HTML elements for translation
 
