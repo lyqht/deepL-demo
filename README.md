@@ -22,7 +22,7 @@ To try out this project,
 3. Replace the text at `original.md` with a text of your liking. Or you can just change the file name/path variables at `index.ts` to your liking.
 4. Run `yarn start` to see the output~
 
-## Limitations of DeepL
+## Limitations of DeepL html tag handling
 
 Here are some limitations of DeepL that I've discovered while experimenting with this demo, with `tagHandling='html'`.
 
