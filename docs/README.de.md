@@ -99,9 +99,9 @@ Unser Ansatz für Client-Bibliotheken ist modular. Jede Unterbibliothek ist eine
     <td><a href="https://github.com/supabase-community/storage-lang" target="_blank" rel="noopener noreferrer">storage-lang</a></td>
   </tr>
   END ROW -->
-  <th colspan="7">⚡️ Offiziell ⚡️</th>
+  <th colspan="7">⚡️ Offizielle ⚡️</th>
   <tr>
-    <td>JavaScript (TypScript)</td>
+    <td><keep>Java</keep>Skript (TypeScript)</td>
     <td><a href="https://github.com/supabase/supabase-js" target="_blank" rel="noopener noreferrer">supabase-js</a></td>
     <td><a href="https://github.com/supabase/postgrest-js" target="_blank" rel="noopener noreferrer">postgrest-js</a></td>
     <td><a href="https://github.com/supabase/gotrue-js" target="_blank" rel="noopener noreferrer">gotrue-js</a></td>
@@ -138,7 +138,7 @@ Unser Ansatz für Client-Bibliotheken ist modular. Jede Unterbibliothek ist eine
     <td><a href="https://github.com/supabase-community/functions-go" target="_blank" rel="noopener noreferrer">funktionen-go</a></td>
   </tr>
   <tr>
-    <td>Java</td>
+    <td><keep>Java</keep></td>
     <td>-</td>
     <td>-</td>
     <td><a href="https://github.com/supabase-community/gotrue-java" target="_blank" rel="noopener noreferrer">gotrue-java</a></td>

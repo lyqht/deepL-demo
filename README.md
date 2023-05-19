@@ -8,7 +8,7 @@ In this demo, the [Supabase README.md](https://github.com/supabase/supabase) is 
 
 You can find the relevant input/ output files in the `docs` folder, based on the name of the file:
 - `original.md` - the Supabase README in english
-- `deepL_translated_{lang}.md` - the translated output using DeepL
+- `README.{lang}.md` - the translated output using DeepL
 
 In the docs folder, you can also find `actual_translation_de.md`, an example of a user-contributed translation found in the `i18n` folder of the supabase repository - it's a little outdated compared to the `original.md`.
 

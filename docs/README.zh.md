@@ -63,7 +63,7 @@ Supabase是一个[托管平台]（https://app.supabase.com）。你可以注册�
 - [PostgreSQL](https://www.postgresql.org/)是一个对象关系型数据库系统，经过30多年的积极开发，它在可靠性、功能稳健性和性能方面赢得了良好的声誉。
 - [Realtime](https://github.com/supabase/realtime)是一个Elixir服务器，允许你使用websockets监听PostgreSQL的插入、更新和删除。Realtime对Postgres内置的复制功能进行投票，以了解数据库的变化，将变化转换为JSON，然后通过websockets将JSON广播给授权客户。
 - [PostgREST](http://postgrest.org/)是一个网络服务器，它把你的PostgreSQL数据库直接变成一个RESTful API。
-- [pg_graphql](http://github.com/supabase/pg_graphql/)是一个PostgreSQL的扩展，暴露了一个GraphQL API。
+- [pg_graphql](http://github.com/supabase/pg_graphql/)是一个PostgreSQL扩展，暴露了GraphQL API。
 - [Storage](https://github.com/supabase/storage-api) 提供了一个RESTful接口来管理存储在S3中的文件，使用Postgres来管理权限。
 - [postgres-meta](https://github.com/supabase/postgres-meta) 是一个用于管理你的Postgres的RESTful API，允许你获取表、添加角色和运行查询等。
 - [GoTrue](https://github.com/netlify/gotrue) 是一个基于SWT的API，用于管理用户和发行SWT令牌。
@@ -101,10 +101,10 @@ Supabase是一个[托管平台]（https://app.supabase.com）。你可以注册�
   END ROW -->
   <th colspan="7">⚡️ 官网 ⚡️</th>
   <tr>
-    <td>JavaScript (TypeScript)</td>
+    <td><keep>Java</keep>脚本(TypeScript)</td>
     <td><a href="https://github.com/supabase/supabase-js" target="_blank" rel="noopener noreferrer">supabase-js</a></td>
     <td><a href="https://github.com/supabase/postgrest-js" target="_blank" rel="noopener noreferrer">postgrest-js</a></td>
-    <td><a href="https://github.com/supabase/gotrue-js" target="_blank" rel="noopener noreferrer">伽利略-js</a></td>
+    <td><a href="https://github.com/supabase/gotrue-js" target="_blank" rel="noopener noreferrer">脚本：Getrue-js</a></td>
     <td><a href="https://github.com/supabase/realtime-js" target="_blank" rel="noopener noreferrer">realtime-js</a></td>
     <td><a href="https://github.com/supabase/storage-js" target="_blank" rel="noopener noreferrer">存储器-js</a></td>
     <td><a href="https://github.com/supabase/functions-js" target="_blank" rel="noopener noreferrer">功能-js</a></td>
@@ -135,10 +135,10 @@ Supabase是一个[托管平台]（https://app.supabase.com）。你可以注册�
     <td><a href="https://github.com/supabase-community/gotrue-go" target="_blank" rel="noopener noreferrer">谷歌-GO</a></td>
     <td>-</td>
     <td><a href="https://github.com/supabase-community/storage-go" target="_blank" rel="noopener noreferrer">存储-去</a></td>
-    <td><a href="https://github.com/supabase-community/functions-go" target="_blank" rel="noopener noreferrer">功能-去</a></td>
+    <td><a href="https://github.com/supabase-community/functions-go" target="_blank" rel="noopener noreferrer">功能--去</a></td>
   </tr>
   <tr>
-    <td>爪哇</td>
+    <td><keep>Java</keep></td>
     <td>-</td>
     <td>-</td>
     <td><a href="https://github.com/supabase-community/gotrue-java" target="_blank" rel="noopener noreferrer">伽利略-JAVA</a></td>

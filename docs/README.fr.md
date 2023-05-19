@@ -101,7 +101,7 @@ Notre approche des bibliothèques clientes est modulaire. Chaque sous-bibliothè
   END ROW -->
   <th colspan="7">⚡️ Officiel ⚡️</th>
   <tr>
-    <td>JavaScript (TypeScript)</td>
+    <td><keep>Java</keep>Script (TypeScript)</td>
     <td><a href="https://github.com/supabase/supabase-js" target="_blank" rel="noopener noreferrer">supabase-js</a></td>
     <td><a href="https://github.com/supabase/postgrest-js" target="_blank" rel="noopener noreferrer">postgrest-js</a></td>
     <td><a href="https://github.com/supabase/gotrue-js" target="_blank" rel="noopener noreferrer">gotrue-js</a></td>
@@ -138,7 +138,7 @@ Notre approche des bibliothèques clientes est modulaire. Chaque sous-bibliothè
     <td><a href="https://github.com/supabase-community/functions-go" target="_blank" rel="noopener noreferrer">fonctions-go</a></td>
   </tr>
   <tr>
-    <td>Java</td>
+    <td><keep>Java</keep></td>
     <td>-</td>
     <td>-</td>
     <td><a href="https://github.com/supabase-community/gotrue-java" target="_blank" rel="noopener noreferrer">gotrue-java</a></td>
@@ -188,7 +188,7 @@ Notre approche des bibliothèques clientes est modulaire. Chaque sous-bibliothè
     <td><a href="https://github.com/supabase-community/postgrest-swift" target="_blank" rel="noopener noreferrer">martinet postgrest</a></td>
     <td><a href="https://github.com/supabase-community/gotrue-swift" target="_blank" rel="noopener noreferrer">décalage de gotrue</a></td>
     <td><a href="https://github.com/supabase-community/realtime-swift" target="_blank" rel="noopener noreferrer">décalage en temps réel</a></td>
-    <td><a href="https://github.com/supabase-community/storage-swift" target="_blank" rel="noopener noreferrer">décalage de stockage</a></td>
+    <td><a href="https://github.com/supabase-community/storage-swift" target="_blank" rel="noopener noreferrer">décalage d'entreposage</a></td>
     <td><a href="https://github.com/supabase-community/functions-swift" target="_blank" rel="noopener noreferrer">fonctions-swift</a></td>
   </tr>
   <tr>

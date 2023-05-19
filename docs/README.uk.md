@@ -77,7 +77,7 @@ Supabase - це [хостингова платформа] (https://app.supabase.
   <tr>
     <th>Мова</th>
     <th>Клієнтська</th>
-    <th colspan="5">Функціональні клієнти (включені в клієнт Supabase)</th>
+    <th colspan="5">Функціональні клієнти (входять до складу клієнта Supabase)</th>
   </tr>
   <tr>
     <th></th>
@@ -101,7 +101,7 @@ Supabase - це [хостингова платформа] (https://app.supabase.
   END ROW -->
   <th colspan="7">⚡️ Офіційний ⚡️</th>
   <tr>
-    <td>JavaScript (TypeScript)</td>
+    <td><keep>Java</keep>Скрипт (TypeScript)</td>
     <td><a href="https://github.com/supabase/supabase-js" target="_blank" rel="noopener noreferrer">supabase-js</a></td>
     <td><a href="https://github.com/supabase/postgrest-js" target="_blank" rel="noopener noreferrer">postgrest-js</a></td>
     <td><a href="https://github.com/supabase/gotrue-js" target="_blank" rel="noopener noreferrer">gotrue-js</a></td>
@@ -138,7 +138,7 @@ Supabase - це [хостингова платформа] (https://app.supabase.
     <td><a href="https://github.com/supabase-community/functions-go" target="_blank" rel="noopener noreferrer">functions-go</a></td>
   </tr>
   <tr>
-    <td>Java</td>
+    <td><keep>Java</keep></td>
     <td>-</td>
     <td>-</td>
     <td><a href="https://github.com/supabase-community/gotrue-java" target="_blank" rel="noopener noreferrer">gotrue-java</a></td>

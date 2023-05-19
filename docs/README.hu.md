@@ -7,86 +7,86 @@
 
 # Supabase
 
-[Supabase](https://supabase.com) je open source alternatíva Firebase. Funkcie Firebase budujeme pomocou open source nástrojov podnikovej triedy.
+[Supabase](https://supabase.com) egy nyílt forráskódú Firebase alternatíva. A Firebase funkcióit vállalati szintű nyílt forráskódú eszközökkel építjük ki.
 
-- hostovaná databáza Postgres [x]. [Dokumenty](https://supabase.com/docs/guides/database)
-- [x] Autentifikácia a autorizácia. [Dokumenty](https://supabase.com/docs/guides/auth)
-- [x] Automaticky generované rozhrania API.
-  - [x] REST. [Dokumenty](https://supabase.com/docs/guides/database/api#rest-api)
-  - [x] GraphQL. [Dokumenty](https://supabase.com/docs/guides/database/api#graphql-api)
-  - [x] Odbery v reálnom čase. [Docs](https://supabase.com/docs/guides/database/api#realtime-api)
-- [x] Funkcie.
-  - [x] Databázové funkcie. [Docs](https://supabase.com/docs/guides/database/functions)
-  - [x] Okrajové funkcie [Docs](https://supabase.com/docs/guides/functions)
-- [x] Ukladanie súborov. [Dokumenty](https://supabase.com/docs/guides/storage)
-- [x] Prístrojový panel
+- [x] Hosted Postgres adatbázis. [Docs](https://supabase.com/docs/guides/database)
+- [x] Hitelesítés és engedélyezés. [Docs](https://supabase.com/docs/guides/auth)
+- [x] Automatikusan generált API-k.
+  - [x] REST. [Docs](https://supabase.com/docs/guides/database/api#rest-api)
+  - [x] GraphQL. [Docs](https://supabase.com/docs/guides/database/api#graphql-api)
+  - [x] Valós idejű előfizetések. [Docs](https://supabase.com/docs/guides/database/api#realtime-api)
+- [x] Funkciók.
+  - [x] Database Functions. [Docs](https://supabase.com/docs/guides/database/functions)
+  - [x] Edge Functions [Docs](https://supabase.com/docs/guides/functions)
+- [x] Fájlok tárolása. [Docs](https://supabase.com/docs/guides/storage)
+- [x] Dashboard
 
 ![Supabase Dashboard](https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/github/supabase-dashboard.png)
 
-## Dokumentácia
+## Dokumentáció
 
-Úplnú dokumentáciu nájdete na stránke [supabase.com/docs](https://supabase.com/docs)
+A teljes dokumentációért látogasson el [supabase.com/docs](https://supabase.com/docs)
 
-Ak chcete zistiť, ako prispievať, navštívte stránku [Začíname](./DEVELOPERS.md)
+A Contribute-hoz való hozzájáruláshoz látogasson el a [Getting Started](./DEVELOPERS.md) oldalra
 
-## Komunita a podpora
+## Közösség és támogatás
 
-- [Fórum komunity](https://github.com/supabase/supabase/discussions). Najlepšie pre: pomoc pri vytváraní, diskusie o osvedčených postupoch pri práci s databázou.
-- [GitHub Issues](https://github.com/supabase/supabase/issues). Najlepšie pre: chyby a omyly, na ktoré narazíte pri používaní databázy Supabase.
-- [E-mailová podpora](https://supabase.com/docs/support#business-support). Najlepšie pre: problémy s vašou databázou alebo infraštruktúrou.
-- [Discord](https://discord.supabase.com). Najlepšie na: zdieľanie vašich aplikácií a stretávanie sa s komunitou.
+- [Közösségi fórum](https://github.com/supabase/supabase/discussions). Legjobb: segítség az építéshez, az adatbázis legjobb gyakorlatainak megvitatása.
+- [GitHub Issues](https://github.com/supabase/supabase/issues). Legjobb: hibák és hibák, amelyekkel a Supabase használatával találkozol.
+- [Email Support](https://supabase.com/docs/support#business-support). Legjobb: az adatbázisoddal vagy az infrastruktúrával kapcsolatos problémákra.
+- [Discord](https://discord.supabase.com). A legjobb: az alkalmazások megosztására és a közösséggel való együttlétre.
 
-## Stav
+## Állapot
 
-- [x] Alfa: Testujeme Supabase s uzavretým súborom zákazníkov
-- [x] Verejná alfa: [app.supabase.com](https://app.supabase.com). Ale buďte na nás mierni, je tu niekoľko zádrheľov
-- [x] Verejná beta verzia: Dostatočne stabilná pre väčšinu prípadov použitia, ktoré nie sú určené pre podniky
-- [ ] Verejná: Všeobecná dostupnosť [[status](https://supabase.com/docs/guides/getting-started/features#feature-status)]
+- [x] Alpha: A Supabase-t egy zárt ügyfélkörrel teszteljük
+- [x] Nyilvános alfa: Bárki regisztrálhat az [app.supabase.com](https://app.supabase.com) oldalon. De legyetek óvatosak velünk, van még néhány hiba
+- [x] Nyilvános béta: Elég stabil a legtöbb nem vállalati felhasználási esethez
+- [ ] Nyilvános: Általános elérhetőség [[status](https://supabase.com/docs/guides/getting-started/features#feature-status)]
 
-Momentálne sme vo verejnej beta verzii. Sledujte "releases" tohto repozitára, aby ste boli upozornení na hlavné aktualizácie.
+Jelenleg nyilvános béta verzióban vagyunk. Figyelje a "releases" ezen repo-t, hogy értesítést kapjon a fontosabb frissítésekről.
 
 <kbd><img src="https://raw.githubusercontent.com/supabase/supabase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="Watch this repo"/></kbd>
 
 ---
 
-## Ako to funguje
+## Hogyan működik
 
-Supabase je kombináciou nástrojov s otvoreným zdrojovým kódom. Funkcie Firebase budujeme pomocou produktov s otvoreným zdrojovým kódom na podnikovej úrovni. Ak existujú nástroje a komunity s otvorenou licenciou MIT, Apache 2 alebo ekvivalentnou otvorenou licenciou, budeme tento nástroj používať a podporovať. Ak nástroj neexistuje, vytvoríme ho a použijeme open source sami. Databáza Supabase nie je mapovaním databázy Firebase v pomere 1:1. Naším cieľom je poskytnúť vývojárom vývojársky zážitok podobný Firebase pomocou nástrojov s otvoreným zdrojovým kódom.
+A Supabase nyílt forráskódú eszközök kombinációja. A Firebase funkcióit vállalati szintű, nyílt forráskódú termékek felhasználásával építjük ki. Ha az eszközök és közösségek léteznek MIT, Apache 2 vagy azzal egyenértékű nyílt licenccel, akkor azt az eszközt használjuk és támogatjuk. Ha az eszköz nem létezik, akkor mi magunk készítjük el és nyílt forráskódúvá tesszük. A Supabase nem a Firebase 1:1 leképezése. Célunk, hogy a fejlesztőknek a Firebase-hez hasonló fejlesztői élményt nyújtsunk nyílt forráskódú eszközökkel.
 
 **Architektúra**
 
-Supabase je [hostovaná platforma](https://app.supabase.com). Môžete sa zaregistrovať a začať používať Supabase bez toho, aby ste čokoľvek inštalovali.
-Môžete tiež [samostatne hosťovať](https://supabase.com/docs/guides/hosting/overview) a [vyvíjať lokálne](https://supabase.com/docs/guides/local-development).
+A Supabase egy [hosztolt platform](https://app.supabase.com). Regisztrálhat és elkezdheti használni a Supabase-t anélkül, hogy bármit telepítene.
+Önállóan is [hosztolhat](https://supabase.com/docs/guides/hosting/overview) és [fejleszthet helyben](https://supabase.com/docs/guides/local-development).
 
 ![Architektúra](https://github.com/supabase/supabase/blob/master/apps/docs/public/img/supabase-architecture.png)
 
-- [PostgreSQL](https://www.postgresql.org/) je objektovo-relačný databázový systém s viac ako 30 rokmi aktívneho vývoja, ktorý si získal dobrú povesť vďaka spoľahlivosti, robustnosti funkcií a výkonu.
-- [Realtime](https://github.com/supabase/realtime) je server Elixir, ktorý umožňuje počúvať vkladanie, aktualizáciu a mazanie údajov PostgreSQL pomocou webových soketov. Realtime vyhľadáva zmeny v databáze pomocou zabudovanej replikačnej funkcie Postgresu, konvertuje zmeny na JSON a potom vysiela JSON cez websockety autorizovaným klientom.
-- [PostgREST](http://postgrest.org/) je webový server, ktorý zmení vašu databázu PostgreSQL priamo na RESTful API
-- [pg_graphql](http://github.com/supabase/pg_graphql/) je rozšírenie PostgreSQL, ktoré vystavuje GraphQL API
-- [Storage](https://github.com/supabase/storage-api) poskytuje RESTful rozhranie na správu súborov uložených v S3, pričom na správu oprávnení používa Postgres.
-- [postgres-meta](https://github.com/supabase/postgres-meta) je RESTful API na správu Postgresu, ktoré umožňuje načítavať tabuľky, pridávať roly a spúšťať dotazy atď.
-- [GoTrue](https://github.com/netlify/gotrue) je API založené na SWT na správu používateľov a vydávanie tokenov SWT.
-- [Kong](https://github.com/Kong/kong) je cloudová brána API.
+- a [PostgreSQL](https://www.postgresql.org/) egy objektum-relációs adatbázis-rendszer, amelynek több mint 30 éves aktív fejlesztése során a megbízhatóság, a funkciók robusztussága és a teljesítménye szerzett jó hírnevet.
+- a [Realtime](https://github.com/supabase/realtime) egy Elixir szerver, amely lehetővé teszi, hogy websocketek segítségével figyelje a PostgreSQL beviteleit, frissítéseit és törléseit. A Realtime lekérdezi a Postgres beépített replikációs funkcióit az adatbázis-változásokért, a változásokat JSON-ba konvertálja, majd a JSON-t websocketeken keresztül továbbítja az engedélyezett ügyfeleknek.
+- [PostgREST](http://postgrest.org/) egy webkiszolgáló, amely a PostgreSQL adatbázisát közvetlenül RESTful API-vá alakítja
+- [pg_graphql](http://github.com/supabase/pg_graphql/) egy PostgreSQL kiterjesztés, amely GraphQL API-t tesz elérhetővé
+- [Storage](https://github.com/supabase/storage-api) egy RESTful felületet biztosít az S3-ban tárolt fájlok kezeléséhez, a Postgres segítségével a jogosultságok kezeléséhez.
+- [postgres-meta](https://github.com/supabase/postgres-meta) egy RESTful API a Postgres kezeléséhez, amely lehetővé teszi a táblák lekérdezését, szerepek hozzáadását, lekérdezések futtatását stb.
+- [GoTrue](https://github.com/netlify/gotrue) egy SWT alapú API a felhasználók kezelésére és SWT tokenek kiadására.
+- a [Kong](https://github.com/Kong/kong) egy felhő-natív API átjáró.
 
-knižnice #### Client
+#### Ügyfélkönyvtárak
 
-Náš prístup ku klientskym knižniciam je modulárny. Každá čiastková knižnica je samostatnou implementáciou pre jeden externý systém. Je to jeden zo spôsobov, ako podporujeme existujúce nástroje.
+Az ügyfélkönyvtárakra vonatkozó megközelítésünk moduláris. Minden egyes alkönyvtár egy önálló megvalósítás egyetlen külső rendszerhez. Ez az egyik módja annak, hogy a meglévő eszközöket támogassuk.
 
 <table style="table-layout:fixed; white-space: nowrap;">
   <tr>
-    <th>Jazyk</th>
-    <th>Klient</th>
-    <th colspan="5">Feature-Clients (v balíku s klientom Supabase)</th>
+    <th>Nyelv</th>
+    <th>Ügyfél</th>
+    <th colspan="5">Feature-kliensek (a Supabase klienssel együtt)</th>
   </tr>
   <tr>
     <th></th>
     <th>Supabase</th>
     <th><a href="https://github.com/postgrest/postgrest" target="_blank" rel="noopener noreferrer">PostgREST</a></th>
     <th><a href="https://github.com/supabase/gotrue" target="_blank" rel="noopener noreferrer">GoTrue</a></th>
-    <th><a href="https://github.com/supabase/realtime" target="_blank" rel="noopener noreferrer">Realtime</a></th>
-    <th><a href="https://github.com/supabase/storage-api" target="_blank" rel="noopener noreferrer">Úložisko</a></th>
-    <th>Funkcie</th>
+    <th><a href="https://github.com/supabase/realtime" target="_blank" rel="noopener noreferrer">Valós idejű</a></th>
+    <th><a href="https://github.com/supabase/storage-api" target="_blank" rel="noopener noreferrer">Tárolás</a></th>
+    <th>Funkciók</th>
   </tr>
   <!-- TEMPLATE FOR NEW ROW -->
   <!-- START ROW
@@ -99,9 +99,9 @@ Náš prístup ku klientskym knižniciam je modulárny. Každá čiastková kni�
     <td><a href="https://github.com/supabase-community/storage-lang" target="_blank" rel="noopener noreferrer">storage-lang</a></td>
   </tr>
   END ROW -->
-  <th colspan="7">⚡️ Oficiálna stránka ⚡️</th>
+  <th colspan="7">⚡️ Hivatalos ⚡️</th>
   <tr>
-    <td>JavaScript (TypeScript)</td>
+    <td><keep>Java</keep>Szkript (TypeScript)</td>
     <td><a href="https://github.com/supabase/supabase-js" target="_blank" rel="noopener noreferrer">supabase-js</a></td>
     <td><a href="https://github.com/supabase/postgrest-js" target="_blank" rel="noopener noreferrer">postgrest-js</a></td>
     <td><a href="https://github.com/supabase/gotrue-js" target="_blank" rel="noopener noreferrer">gotrue-js</a></td>
@@ -118,7 +118,7 @@ Náš prístup ku klientskym knižniciam je modulárny. Každá čiastková kni�
     <td><a href="https://github.com/supabase/storage-dart" target="_blank" rel="noopener noreferrer">storage-dart</a></td>
     <td><a href="https://github.com/supabase/functions-dart" target="_blank" rel="noopener noreferrer">functions-dart</a></td>
   </tr>
-  <th colspan="7">💚 Komunita 💚</th>
+  <th colspan="7">💚 Közösség 💚</th>
   <tr>
     <td>C#</td>
     <td><a href="https://github.com/supabase-community/supabase-csharp" target="_blank" rel="noopener noreferrer">supabase-csharp</a></td>
@@ -138,7 +138,7 @@ Náš prístup ku klientskym knižniciam je modulárny. Každá čiastková kni�
     <td><a href="https://github.com/supabase-community/functions-go" target="_blank" rel="noopener noreferrer">functions-go</a></td>
   </tr>
   <tr>
-    <td>Java</td>
+    <td><keep>Java</keep></td>
     <td>-</td>
     <td>-</td>
     <td><a href="https://github.com/supabase-community/gotrue-java" target="_blank" rel="noopener noreferrer">gotrue-java</a></td>
@@ -192,7 +192,7 @@ Náš prístup ku klientskym knižniciam je modulárny. Každá čiastková kni�
     <td><a href="https://github.com/supabase-community/functions-swift" target="_blank" rel="noopener noreferrer">functions-swift</a></td>
   </tr>
   <tr>
-    <td>Godot Engine (GDScript)</td>
+    <td>Godot motor (GDScript)</td>
     <td><a href="https://github.com/supabase-community/godot-engine.supabase" target="_blank" rel="noopener noreferrer">supabase-gdscript</a></td>
     <td><a href="https://github.com/supabase-community/postgrest-gdscript" target="_blank" rel="noopener noreferrer">postgrest-gdscript</a></td>
     <td><a href="https://github.com/supabase-community/gotrue-gdscript" target="_blank" rel="noopener noreferrer">gotrue-gdscript</a></td>
@@ -205,50 +205,50 @@ Náš prístup ku klientskym knižniciam je modulárny. Každá čiastková kni�
 <!--- Remove this list if you're translating to another language, it's hard to keep updated across multiple files-->
 <!--- Keep only the link to the list of translation files-->
 
-## Preklady
+## Fordítások
 
-- [Arabčina | العربية](/i18n/README.ar.md)
-- [Albánčina / Shqip](/i18n/README.sq.md)
+- [Arabic | العربية](/i18n/README.ar.md)
+- [Albán / Shqip](/i18n/README.sq.md)
 - [Bangla / বাংলা](/i18n/README.bn.md)
-- [Bulharský / Български](/i18n/README.bg.md)
-- [Katalánčina / Català](/i18n/README.ca.md)
-- [dánsky / Dansk](/i18n/README.da.md)
-- [Dutch / Nederlands](/i18n/README.nl.md)
-- [Angličtina](https://github.com/supabase/supabase)
-- [Fínsky / Suomalainen](/i18n/README.fi.md)
-- [Francúzština / Français](/i18n/README.fr.md)
-- [Nemčina / Deutsch](/i18n/README.de.md)
-- [Gréčtina / Ελληνικά](/i18n/README.gr.md)
-- [Hebrejčina / עברית](/i18n/README.he.md)
-- [Hindčina / हिंदी](/i18n/README.hi.md)
-- [Hungarian / Magyar](/i18n/README.hu.md)
-- [Nepálčina / नेपाली](/i18n/README.ne.md)
-- [Indonézština / Bahasa Indonesia](/i18n/README.id.md)
-- [Taliančina / Italiano](/i18n/README.it.md)
-- [Japončina / 日本語](/i18n/README.jp.md)
-- [Kórejčina / 한국어](/i18n/README.ko.md)
-- [Malajčina / Bahasa Malaysia](/i18n/README.ms.md)
-- [Nórčina (Bokmål) / Norsk (Bokmål)](/i18n/README.nb-no.md)
-- [Perzština / فارسی](/i18n/README.fa.md)
-- [Poľština / Polski](/i18n/README.pl.md)
-- [Portugalčina / Português](/i18n/README.pt.md)
-- [Portugalčina (brazílčina) / Português Brasileiro](/i18n/README.pt-br.md)
-- [Rumunský jazyk / Română](/i18n/README.ro.md)
-- [Russian / Pусский](/i18n/README.ru.md)
-- [srbský / Srpski](/i18n/README.sr.md)
+- [bolgár / Български](/i18n/README.bg.md)
+- [Katalán / Català](/i18n/README.ca.md)
+- [Dán / Dansk](/i18n/README.da.md)
+- [Holland / Nederlands](/i18n/README.nl.md)
+- [angol](https://github.com/supabase/supabase)
+- [Finn / Suomalainen](/i18n/README.fi.md)
+- [Francia / Français](/i18n/README.fr.md)
+- [Német / Deutsch](/i18n/README.de.md)
+- [Görög / Ελληνικά](/i18n/README.gr.md)
+- [Héber / עברית](/i18n/README.he.md)
+- [Hindi / हिंदी](/i18n/README.hi.md)
+- [Magyar / Magyar](/i18n/README.hu.md)
+- [Nepáli / नेपाली](/i18n/README.ne.md)
+- [Indonéz / Bahasa Indonesia](/i18n/README.id.md)
+- [Olasz / Italiano](/i18n/README.it.md)
+- [Japán / 日本語](/i18n/README.jp.md)
+- [Koreai / 한국어](/i18n/README.ko.md)
+- [Maláj / Bahasa Malaysia](/i18n/README.ms.md)
+- [Norvég (Bokmål) / Norsk (Bokmål)](/i18n/README.nb-no.md)
+- [Perzsa / فارسی](/i18n/README.fa.md)
+- [Lengyel / Polski](/i18n/README.pl.md)
+- [Portugál / Português](/i18n/README.pt.md)
+- [Portugál (brazil) / Português Brasileiro](/i18n/README.pt-br.md)
+- [Román / Română](/i18n/README.ro.md)
+- [Orosz / Pусский](/i18n/README.ru.md)
+- [Szerb / Srpski](/i18n/README.sr.md)
 - [Sinhala / සිංහල](/i18n/README.si.md)
 - [Spanish / Español](/i18n/README.es.md)
-- [Zjednodušená čínština / 简体中文](/i18n/README.zh-cn.md)
-- [Švédčina / Svenska](/i18n/README.sv.md)
+- [Egyszerűsített kínai / 简体中文](/i18n/README.zh-cn.md)
+- [Svéd / Svenska](/i18n/README.sv.md)
 - [Thai / ไทย](/i18n/README.th.md)
-- [Tradičná čínština / 繁体中文](/i18n/README.zh-tw.md)
-- [Turečtina / Türkçe](/i18n/README.tr.md)
-- [Ukrajinčina / Українська](/i18n/README.uk.md)
-- [Vietnamčina / Tiếng Việt](/i18n/README.vi-vn.md)
-- [Zoznam prekladov](/i18n/languages.md) <!--- Keep only this -->
+- [Hagyományos kínai / 繁体中文](/i18n/README.zh-tw.md)
+- [Török / Türkçe](/i18n/README.tr.md)
+- [Ukrán / Українська](/i18n/README.uk.md)
+- [Vietnámi / Tiếng Việt](/i18n/README.vi-vn.md)
+- [Fordítások listája](/i18n/languages.md) <!--- Keep only this -->
 
 ---
 
-## Sponzori
+## Szponzorok
 
-[![Nový sponzor](https://user-images.githubusercontent.com/10214025/90518111-e74bbb00-e198-11ea-8f88-c9e3c1aa4b5b.png)](https://github.com/sponsors/supabase)
+[![Új szponzor](https://user-images.githubusercontent.com/10214025/90518111-e74bbb00-e198-11ea-8f88-c9e3c1aa4b5b.png)](https://github.com/sponsors/supabase)

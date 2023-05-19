@@ -6,8 +6,8 @@ const authKey = process.env.API_KEY || "";
 const translator = new deepl.Translator(authKey);
 const inputFilePath = 'docs/original.md';
 const toTranslateFilePath = 'docs/to_translate.md';
-const outputFileNamePrefix = 'docs/deepL_translated';
-const termsToIgnoreForTranslation: string[] = ['Rust', 'Swift', 'Ruby', 'Python', 'Flutter'];
+const outputFileNamePrefix = 'docs/README';
+const termsToIgnoreForTranslation: string[] = ['Rust', 'Swift', 'Ruby', 'Python', 'Flutter', 'Java'];
 
 (async () => {
     fs.readFile(inputFilePath, 'utf8', async function (err, text) {
@@ -45,7 +45,7 @@ const termsToIgnoreForTranslation: string[] = ['Rust', 'Swift', 'Ruby', 'Python'
                 }
             );
     
-            fs.writeFile(`${outputFileNamePrefix}_${targetLang}.md`, textResult.text, function (err) {
+            fs.writeFile(`${outputFileNamePrefix}.${targetLang}.md`, textResult.text, function (err) {
                 if (err) return console.log(err);
                 console.log(`Translated ${targetLang}`)
             });

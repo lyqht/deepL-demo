@@ -101,7 +101,7 @@ Il nostro approccio alle librerie client è modulare. Ogni sotto-libreria è un'
   END ROW -->
   <th colspan="7">⚡️ ⚡️ ufficiale</th>
   <tr>
-    <td>JavaScript (TypeScript)</td>
+    <td><keep>Java</keep>Script (TypeScript)</td>
     <td><a href="https://github.com/supabase/supabase-js" target="_blank" rel="noopener noreferrer">supabase-js</a></td>
     <td><a href="https://github.com/supabase/postgrest-js" target="_blank" rel="noopener noreferrer">postgrest-js</a></td>
     <td><a href="https://github.com/supabase/gotrue-js" target="_blank" rel="noopener noreferrer">gotrue-js</a></td>
@@ -138,12 +138,12 @@ Il nostro approccio alle librerie client è modulare. Ogni sotto-libreria è un'
     <td><a href="https://github.com/supabase-community/functions-go" target="_blank" rel="noopener noreferrer">funzioni-go</a></td>
   </tr>
   <tr>
-    <td>Java</td>
+    <td><keep>Java</keep></td>
     <td>-</td>
     <td>-</td>
     <td><a href="https://github.com/supabase-community/gotrue-java" target="_blank" rel="noopener noreferrer">gotrue-java</a></td>
     <td>-</td>
-    <td><a href="https://github.com/supabase-community/storage-java" target="_blank" rel="noopener noreferrer">storage-java</a></td>
+    <td><a href="https://github.com/supabase-community/storage-java" target="_blank" rel="noopener noreferrer">archiviazione-java</a></td>
     <td>-</td>
   </tr>
   <tr>

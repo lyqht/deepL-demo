@@ -34,7 +34,7 @@
 - [コミュニティ・フォーラム](https://github.com/supabase/supabase/discussions)。最適な場所：構築に関するヘルプ、データベースのベストプラクティスに関する議論。
 - [GitHub Issues](https://github.com/supabase/supabase/issues).Supabaseを使用していて遭遇したバグやエラーに最適です。
 - [メールサポート](https://supabase.com/docs/support#business-support).あなたのデータベースやインフラに関する問題。
-- [Discord】(https://discord.supabase.com).アプリケーションの共有やコミュニティとの交流に最適です。
+- [Discord】(https://discord.supabase.com).アプリケーションを共有したり、コミュニティと交流するのに適しています。
 
 ## ステータス
 
@@ -101,7 +101,7 @@ Supabaseは[hosted platform](https://app.supabase.com)です。サインアッ�
   END ROW -->
   <th colspan="7">⚡️ 公式 ⚡️</th>
   <tr>
-    <td>JavaScript（TypeScript）対応</td>
+    <td><keep>Java</keep>スクリプト(TypeScript)</td>
     <td><a href="https://github.com/supabase/supabase-js" target="_blank" rel="noopener noreferrer">supabase-js</a></td>
     <td><a href="https://github.com/supabase/postgrest-js" target="_blank" rel="noopener noreferrer">postgrest-js</a></td>
     <td><a href="https://github.com/supabase/gotrue-js" target="_blank" rel="noopener noreferrer">gotrue-js（ゴトル-js</a></td>
@@ -135,13 +135,13 @@ Supabaseは[hosted platform](https://app.supabase.com)です。サインアッ�
     <td><a href="https://github.com/supabase-community/gotrue-go" target="_blank" rel="noopener noreferrer">ゴトルーゴー</a></td>
     <td>-</td>
     <td><a href="https://github.com/supabase-community/storage-go" target="_blank" rel="noopener noreferrer">ストレージ-go</a></td>
-    <td><a href="https://github.com/supabase-community/functions-go" target="_blank" rel="noopener noreferrer">関数-go</a></td>
+    <td><a href="https://github.com/supabase-community/functions-go" target="_blank" rel="noopener noreferrer">ファンクション-go</a></td>
   </tr>
   <tr>
-    <td>ジャバ</td>
+    <td><keep>Java</keep></td>
     <td>-</td>
     <td>-</td>
-    <td><a href="https://github.com/supabase-community/gotrue-java" target="_blank" rel="noopener noreferrer">ゴトルエジャバ</a></td>
+    <td><a href="https://github.com/supabase-community/gotrue-java" target="_blank" rel="noopener noreferrer">GOTRUE-JAVA</a></td>
     <td>-</td>
     <td><a href="https://github.com/supabase-community/storage-java" target="_blank" rel="noopener noreferrer">ストレージ-java</a></td>
     <td>-</td>
@@ -212,11 +212,11 @@ Supabaseは[hosted platform](https://app.supabase.com)です。サインアッ�
 - [バングラ / বাংলা](/i18n/README.bn.md)
 - [ブルガリア語 / Български](/i18n/README.bg.md)
 - [カタルーニャ語 / Català](/i18n/README.ca.md)
-- [デンマーク語 / Dansk](/i18n/README.da.md)
+- [デンマーク語 / Dansk】(/i18n/README.da.md)
 - [オランダ語 / ネーデルランド語](/i18n/README.nl.md)
 - [英語](https://github.com/supabase/supabase)
 - [フィンランド語 / Suomalainen](/i18n/README.fi.md)
-- [フランス語 / Français](/i18n/README.fr.md)
+- [フランス語 / フランセ](/i18n/README.fr.md)
 - [German / Deutsch](/i18n/README.de.md)
 - [ギリシャ語 / Ελληνικά】(/i18n/README.gr.md)
 - [ヘブライ語／עברית](/i18n/README.he.md)

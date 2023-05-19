@@ -7,86 +7,86 @@
 
 # Supabase
 
-[Supabase](https://supabase.com) yra atvirojo kodo Firebase alternatyva. Kuriame "Firebase" funkcijas naudodami įmonių klasės atvirojo kodo įrankius.
+[Supabase](https://supabase.com) on avatud lähtekoodiga Firebase'i alternatiiv. Me ehitame Firebase'i funktsioonid, kasutades ettevõtlusklassi avatud lähtekoodiga tööriistu.
 
-- [x] Prieglobos Postgres duomenų bazė. [Dokumentai](https://supabase.com/docs/guides/database)
-- [x] Autentiškumo nustatymas ir autorizavimas. [Dokumentai](https://supabase.com/docs/guides/auth)
-- [x] Automatiškai generuojamos API.
-  - [x] REST. [Dokumentai](https://supabase.com/docs/guides/database/api#rest-api)
-  - [x] GraphQL. [Dokumentai](https://supabase.com/docs/guides/database/api#graphql-api)
-  - [x] Realaus laiko prenumeratos. [Dokumentai](https://supabase.com/docs/guides/database/api#realtime-api)
-- [x] Funkcijos.
-  - [x] Duomenų bazės funkcijos. [Dokumentai](https://supabase.com/docs/guides/database/functions)
-  - [x] Kraštų funkcijos [Docs](https://supabase.com/docs/guides/functions)
-- [x] Failų saugojimas. [Dokumentai](https://supabase.com/docs/guides/storage)
-- [x] Prietaisų skydelis
+- [x] Hostitud Postgres andmebaas. [Dokumendid](https://supabase.com/docs/guides/database)
+- [x] Autentimine ja autoriseerimine. [Dokumendid](https://supabase.com/docs/guides/auth)
+- [x] Automaatselt genereeritud APId.
+  - [x] REST. [Dokumendid](https://supabase.com/docs/guides/database/api#rest-api)
+  - [x] GraphQL. [Dokumendid](https://supabase.com/docs/guides/database/api#graphql-api)
+  - [x] Reaalajas toimivad tellimused. [Dokumendid](https://supabase.com/docs/guides/database/api#realtime-api)
+- [x] Funktsioonid.
+  - [x] Andmebaasi funktsioonid. [Dokumendid](https://supabase.com/docs/guides/database/functions)
+  - [x] Edge Functions [Docs](https://supabase.com/docs/guides/functions)
+- [x] Faili salvestamine. [Dokumendid](https://supabase.com/docs/guides/storage)
+- [x] Armatuurlaud
 
 ![Supabase Dashboard](https://raw.githubusercontent.com/supabase/supabase/master/apps/www/public/images/github/supabase-dashboard.png)
 
-## Dokumentacija
+## Dokumentatsioon
 
-Išsamios dokumentacijos rasite [supabase.com/docs](https://supabase.com/docs)
+Täieliku dokumentatsiooni saamiseks külastage [supabase.com/docs](https://supabase.com/docs)
 
-Norėdami sužinoti, kaip prisidėti, apsilankykite [Getting Started](./DEVELOPERS.md)
+Et näha, kuidas panustada, külastage [Getting Started](./DEVELOPERS.md)
 
-## Bendruomenė ir palaikymas
+## Kogukond ja tugi
 
-- [Bendrijos forumas](https://github.com/supabase/supabase/discussions). Geriausiai tinka: pagalbai kuriant, diskusijoms apie geriausią duomenų bazių praktiką.
-- [GitHub Issues] (https://github.com/supabase/supabase/issues). Geriausia: klaidos ir klaidos, su kuriomis susiduriate naudodami "Supabase".
-- [Pagalba el. paštu](https://supabase.com/docs/support#business-support). Geriausiai tinka: problemoms, susijusioms su jūsų duomenų baze ar infrastruktūra, spręsti.
-- [Discord](https://discord.supabase.com). Geriausiai tinka: dalytis savo programomis ir bendrauti su bendruomene.
+- [Ühenduse foorum](https://github.com/supabase/supabase/discussions). Parim: abi ehitamisel, arutelu andmebaasi parimate tavade üle.
+- [GitHub Issues](https://github.com/supabase/supabase/issues). Parim lahendus: vead ja vead, millega Supabase'i kasutades kokku puutute.
+- [E-posti tugi](https://supabase.com/docs/support#business-support). Parim lahendus: probleemid andmebaasi või infrastruktuuriga.
+- [Discord](https://discord.supabase.com). Parim: oma rakenduste jagamiseks ja kogukonnaga suhtlemiseks.
 
-## Statusas
+## Staatus
 
-- [x] Alfa: Bandome "Supabase" su uždaru klientų rinkiniu
-- [x] Viešoji Alfa versija: [app.supabase.com] (https://app.supabase.com). Tačiau neskubėkite su mumis, yra keletas trūkumų
-- [x] Viešoji beta versija: Pakankamai stabili, kad ją būtų galima naudoti daugeliu ne įmonių reikmėms
-- [ ] Vieša: Bendras prieinamumas [[statusas](https://supabase.com/docs/guides/getting-started/features#feature-status)]
+- [x] Alpha: Me testime Supabase'i suletud kliendikogumiga
+- [x] Avalik Alpha: Igaüks saab registreeruda aadressil [app.supabase.com](https://app.supabase.com). Kuid olge meiega ettevaatlikud, seal on mõned veidrused
+- [x] Avalik beeta: Piisavalt stabiilne enamiku mitte-ettevõtluskasutuse jaoks
+- [ ] Avalik: Üldine kättesaadavus [[status](https://supabase.com/docs/guides/getting-started/features#feature-status)]
 
-Šiuo metu esame viešojoje beta versijoje. Stebėkite šios repozitorijos "releases", kad gautumėte pranešimus apie svarbius atnaujinimus.
+Oleme praegu Public Beta versioonis. Jälgige selle repo "releases", et saada teateid suuremate uuenduste kohta.
 
 <kbd><img src="https://raw.githubusercontent.com/supabase/supabase/d5f7f413ab356dc1a92075cb3cee4e40a957d5b1/web/static/watch-repo.gif" alt="Watch this repo"/></kbd>
 
 ---
 
-## Kaip tai veikia
+## Kuidas see töötab
 
-"Supabase" yra atvirojo kodo įrankių derinys. Kuriame "Firebase" funkcijas naudodami įmonių klasės atvirojo kodo produktus. Jei egzistuoja įrankiai ir bendruomenės, turinčios MIT, "Apache 2" ar lygiavertę atvirąją licenciją, mes naudosime ir palaikysime tą įrankį. Jei įrankis neegzistuoja, mes patys jį sukursime ir naudosime atvirąjį kodą. "Supabase" nėra "Firebase" atvaizdavimas 1:1. Mūsų tikslas - suteikti kūrėjams panašią į "Firebase" kūrėjų patirtį naudojant atvirojo kodo įrankius.
+Supabase on avatud lähtekoodiga tööriistade kombinatsioon. Me ehitame Firebase'i funktsioonid üles, kasutades ettevõtte kvaliteediga avatud lähtekoodiga tooteid. Kui tööriistad ja kogukonnad on olemas MIT, Apache 2 või samaväärse avatud litsentsiga, kasutame ja toetame seda tööriista. Kui tööriista ei ole olemas, siis ehitame selle ise ja kasutame avatud lähtekoodi. Supabase ei ole Firebase'i 1:1 kaardistus. Meie eesmärk on pakkuda arendajatele Firebase'ile sarnast arenduskogemust, kasutades avatud lähtekoodiga tööriistu.
 
-**Architektūra**
+**Arhitektuur**
 
-Supabase yra [prieglobos platforma](https://app.supabase.com). Galite užsiregistruoti ir pradėti naudotis "Supabase" nieko neįdiegę.
-Taip pat galite [savarankiškai talpinti](https://supabase.com/docs/guides/hosting/overview) ir [kurti vietoje](https://supabase.com/docs/guides/local-development).
+Supabase on [hostitud platvorm](https://app.supabase.com). Võite registreeruda ja alustada Supabase'i kasutamist ilma midagi installimata.
+Võite ka [ise hostida](https://supabase.com/docs/guides/hosting/overview) ja [arendada lokaalselt](https://supabase.com/docs/guides/local-development).
 
-![Architektūra](https://github.com/supabase/supabase/blob/master/apps/docs/public/img/supabase-architecture.png)
+![Arhitektuur](https://github.com/supabase/supabase/blob/master/apps/docs/public/img/supabase-architecture.png)
 
-- [PostgreSQL](https://www.postgresql.org/) - tai objektinė-reliacinė duomenų bazių sistema, aktyviai plėtojama daugiau kaip 30 metų, todėl ji pelnė gerą reputaciją dėl patikimumo, funkcijų tvirtumo ir našumo.
-- [Realtime](https://github.com/supabase/realtime) - tai "Elixir" serveris, leidžiantis klausytis "PostgreSQL" įterpimų, atnaujinimų ir ištrynimų naudojant žiniatinklio lizdus. "Realtime" apklausia "Postgres" integruotą replikavimo funkciją dėl duomenų bazės pakeitimų, konvertuoja pakeitimus į JSON ir transliuoja JSON per žiniatinklio lizdus įgaliotiems klientams.
-- [PostgREST](http://postgrest.org/) - tai žiniatinklio serveris, kuris paverčia jūsų "PostgreSQL" duomenų bazę tiesiogiai į RESTful API
-- [pg_graphql](http://github.com/supabase/pg_graphql/) - "PostgreSQL" plėtinys, kuris atveria GraphQL API
-- [Storage](https://github.com/supabase/storage-api) - tai REST sąsaja, skirta S3 saugomiems failams valdyti, naudojant "Postgres" leidimams valdyti.
-- [postgres-meta](https://github.com/supabase/postgres-meta) - tai RESTful API, skirta "Postgres" valdymui, leidžianti gauti lenteles, pridėti vaidmenis, vykdyti užklausas ir t. t.
-- [GoTrue](https://github.com/netlify/gotrue) yra SWT pagrįsta API, skirta naudotojams valdyti ir SWT žetonams išduoti.
-- [Kong](https://github.com/Kong/kong) - tai debesijos API vartai.
+- [PostgreSQL](https://www.postgresql.org/) on objekt-relatsiooniline andmebaasisüsteem, mille aktiivne arendamine on kestnud üle 30 aasta ja mis on saavutanud hea maine usaldusväärsuse, funktsioonide töökindluse ja jõudluse poolest.
+- [Realtime](https://github.com/supabase/realtime) on Elixir server, mis võimaldab kuulata PostgreSQL-i sisestusi, uuendusi ja kustutusi veebisokkide abil. Realtime küsib Postgres'i sisseehitatud replikatsioonifunktsioone andmebaasi muudatuste kohta, konverteerib muudatused JSON-iks ja edastab seejärel JSON-i üle websocketi volitatud klientidele.
+- [PostgREST](http://postgrest.org/) on veebiserver, mis muudab teie PostgreSQL andmebaasi otse RESTful API-ks
+- [pg_graphql](http://github.com/supabase/pg_graphql/) on PostgreSQLi laiendus, mis avab GraphQL API
+- [Storage](https://github.com/supabase/storage-api) pakub RESTful liidest S3-s salvestatud failide haldamiseks, kasutades Postgres'i õiguste haldamiseks.
+- [postgres-meta](https://github.com/supabase/postgres-meta) on RESTful API oma Postgres'i haldamiseks, mis võimaldab tabelite hankimist, rollide lisamist ja päringute käivitamist jne.
+- [GoTrue](https://github.com/netlify/gotrue) on SWT-põhine API kasutajate haldamiseks ja SWT-tokenite väljastamiseks.
+- [Kong](https://github.com/Kong/kong) on pilvepõhine API-värav.
 
-#### Kliento bibliotekos
+#### Klientide raamatukogud
 
-Mūsų požiūris į klientų bibliotekas yra modulinis. Kiekviena dalinė biblioteka yra atskira vienos išorinės sistemos realizacija. Tai vienas iš būdų, kaip mes palaikome esamas priemones.
+Meie lähenemine kliendiraamatukogudele on modulaarne. Iga alamraamatukogu on iseseisev implementatsioon ühe välissüsteemi jaoks. See on üks viis, kuidas me toetame olemasolevaid vahendeid.
 
 <table style="table-layout:fixed; white-space: nowrap;">
   <tr>
-    <th>Kalba</th>
-    <th>Klientas</th>
-    <th colspan="5">Funkcijų klientai (įtraukti į "Supabase" klientą)</th>
+    <th>Keel</th>
+    <th>Klient</th>
+    <th colspan="5">Funktsioon-kliendid (komplekteeritud Supabase'i kliendiga)</th>
   </tr>
   <tr>
     <th></th>
     <th>Supabase</th>
     <th><a href="https://github.com/postgrest/postgrest" target="_blank" rel="noopener noreferrer">PostgREST</a></th>
     <th><a href="https://github.com/supabase/gotrue" target="_blank" rel="noopener noreferrer">GoTrue</a></th>
-    <th><a href="https://github.com/supabase/realtime" target="_blank" rel="noopener noreferrer">Realaus laiko</a></th>
-    <th><a href="https://github.com/supabase/storage-api" target="_blank" rel="noopener noreferrer">Saugykla</a></th>
-    <th>Funkcijos</th>
+    <th><a href="https://github.com/supabase/realtime" target="_blank" rel="noopener noreferrer">Reaalajas</a></th>
+    <th><a href="https://github.com/supabase/storage-api" target="_blank" rel="noopener noreferrer">Storage</a></th>
+    <th>Funktsioonid</th>
   </tr>
   <!-- TEMPLATE FOR NEW ROW -->
   <!-- START ROW
@@ -99,9 +99,9 @@ Mūsų požiūris į klientų bibliotekas yra modulinis. Kiekviena dalinė bibli
     <td><a href="https://github.com/supabase-community/storage-lang" target="_blank" rel="noopener noreferrer">storage-lang</a></td>
   </tr>
   END ROW -->
-  <th colspan="7">⚡️ Oficialus ⚡️</th>
+  <th colspan="7">⚡️ Ametlik ⚡️</th>
   <tr>
-    <td>JavaScript (TypeScript)</td>
+    <td><keep>Java</keep>Skript (TypeScript)</td>
     <td><a href="https://github.com/supabase/supabase-js" target="_blank" rel="noopener noreferrer">supabase-js</a></td>
     <td><a href="https://github.com/supabase/postgrest-js" target="_blank" rel="noopener noreferrer">postgrest-js</a></td>
     <td><a href="https://github.com/supabase/gotrue-js" target="_blank" rel="noopener noreferrer">gotrue-js</a></td>
@@ -118,7 +118,7 @@ Mūsų požiūris į klientų bibliotekas yra modulinis. Kiekviena dalinė bibli
     <td><a href="https://github.com/supabase/storage-dart" target="_blank" rel="noopener noreferrer">storage-dart</a></td>
     <td><a href="https://github.com/supabase/functions-dart" target="_blank" rel="noopener noreferrer">functions-dart</a></td>
   </tr>
-  <th colspan="7">💚 Bendruomenė 💚</th>
+  <th colspan="7">💚 kogukond 💚</th>
   <tr>
     <td>C#</td>
     <td><a href="https://github.com/supabase-community/supabase-csharp" target="_blank" rel="noopener noreferrer">supabase-csharp</a></td>
@@ -138,7 +138,7 @@ Mūsų požiūris į klientų bibliotekas yra modulinis. Kiekviena dalinė bibli
     <td><a href="https://github.com/supabase-community/functions-go" target="_blank" rel="noopener noreferrer">functions-go</a></td>
   </tr>
   <tr>
-    <td>Java</td>
+    <td><keep>Java</keep></td>
     <td>-</td>
     <td>-</td>
     <td><a href="https://github.com/supabase-community/gotrue-java" target="_blank" rel="noopener noreferrer">gotrue-java</a></td>
@@ -192,7 +192,7 @@ Mūsų požiūris į klientų bibliotekas yra modulinis. Kiekviena dalinė bibli
     <td><a href="https://github.com/supabase-community/functions-swift" target="_blank" rel="noopener noreferrer">functions-swift</a></td>
   </tr>
   <tr>
-    <td>Godot variklis (GDScript)</td>
+    <td>Godot mootor (GDScript)</td>
     <td><a href="https://github.com/supabase-community/godot-engine.supabase" target="_blank" rel="noopener noreferrer">supabase-gdscript</a></td>
     <td><a href="https://github.com/supabase-community/postgrest-gdscript" target="_blank" rel="noopener noreferrer">postgrest-gdscript</a></td>
     <td><a href="https://github.com/supabase-community/gotrue-gdscript" target="_blank" rel="noopener noreferrer">gotrue-gdscript</a></td>
@@ -205,50 +205,50 @@ Mūsų požiūris į klientų bibliotekas yra modulinis. Kiekviena dalinė bibli
 <!--- Remove this list if you're translating to another language, it's hard to keep updated across multiple files-->
 <!--- Keep only the link to the list of translation files-->
 
-## Vertimai
+## Tõlked
 
-- [Arabų kalba | العربية](/i18n/README.ar.md)
-- [albanų kalba / Shqip](/i18n/README.sq.md)
+- [araabia | العربية](/i18n/README.ar.md)
+- [Albaania / Shqip](/i18n/README.sq.md)
 - [Bangla / বাংলা](/i18n/README.bn.md)
-- [Bulgarian / Български](/i18n/README.bg.md)
-- [Katalonų kalba](/i18n/README.ca.md)
-- [Danų kalba](/i18n/README.da.md)
-- [Dutch / Nederlands](/i18n/README.nl.md)
-- [anglų kalba](https://github.com/supabase/supabase)
-- [Suomių kalba](/i18n/README.fi.md)
-- [Prancūzų kalba](/i18n/README.fr.md)
-- [Vokiečių kalba / Deutsch](/i18n/README.de.md)
-- [Graikų kalba / Ελληνικά](/i18n/README.gr.md)
-- [Hebrajų kalba / עברית](/i18n/README.he.md)
+- [bulgaaria / Български](/i18n/README.bg.md)
+- [katalaani / Català](/i18n/README.ca.md)
+- [Taani / Dansk](/i18n/README.da.md)
+- [Hollandi keel / Nederlands](/i18n/README.nl.md)
+- [English](https://github.com/supabase/supabase)
+- [Soome / Suomalainen](/i18n/README.fi.md)
+- [Prantsuse / Français](/i18n/README.fr.md)
+- [Saksa / Deutsch](/i18n/README.de.md)
+- [Kreeka / Ελληνικά](/i18n/README.gr.md)
+- [heebrea / עברית](/i18n/README.he.md)
 - [Hindi / हिंदी](/i18n/README.hi.md)
-- [vengrų kalba](/i18n/README.hu.md)
+- [Ungari / Magyar](/i18n/README.hu.md)
 - [Nepali / नेपाली](/i18n/README.ne.md)
-- [Indoneziečių kalba / Bahasa Indonesia](/i18n/README.id.md)
-- [Italų kalba](/i18n/README.it.md)
-- [Japonų kalba / 日本語](/i18n/README.jp.md)
-- [Korėjiečių kalba / 한국어](/i18n/README.ko.md)
-- [Malajų kalba / Bahasa Malaysia](/i18n/README.ms.md)
-- [Norvegų (Bokmål) / Norsk (Bokmål)](/i18n/README.nb-no.md)
-- [Persų kalba / فارسی](/i18n/README.fa.md)
-- [lenkų kalba](/i18n/README.pl.md)
-- [Portuguese / Português](/i18n/README.pt.md)
-- [Portugalų (brazilų) / Português Brasileiro](/i18n/README.pt-br.md)
-- [Rumuniškai / Română](/i18n/README.ro.md)
-- [Rusų kalba / Pусский](/i18n/README.ru.md)
-- [Serbian / Srpski](/i18n/README.sr.md)
-- [Sinhalų kalba / සිංහල](/i18n/README.si.md)
-- [ispanų kalba](/i18n/README.es.md)
-- [Supaprastinta kinų kalba / 简体中文](/i18n/README.zh-cn.md)
-- [švedų kalba / Svenska](/i18n/README.sv.md)
-- [Thai / ไทย](/i18n/README.th.md)
-- [Tradicinė kinų kalba / 繁体中文](/i18n/README.zh-tw.md)
-- [Turkų kalba](/i18n/README.tr.md)
-- [Ukrainiečių kalba / Українська](/i18n/README.uk.md)
-- [Vietnamiečių kalba / Tiếng Việt](/i18n/README.vi-vn.md)
-- [Vertimų sąrašas](/i18n/languages.md) <!--- Keep only this -->
+- [Indoneesia / Bahasa Indonesia](/i18n/README.id.md)
+- [Itaalia keel / Italiano](/i18n/README.it.md)
+- [Jaapani / 日本語](/i18n/README.jp.md)
+- [Korea / 한국어](/i18n/README.ko.md)
+- [Malai / Bahasa Malaysia](/i18n/README.ms.md)
+- [Norra keel (Bokmål) / Norsk (Bokmål)](/i18n/README.nb-no.md)
+- [Pärsia keel / فارسی](/i18n/README.fa.md)
+- [Poola / Polski](/i18n/README.pl.md)
+- [Portugali / Português](/i18n/README.pt.md)
+- [Portugali (Brasiilia) / Português Brasileiro](/i18n/README.pt-br.md)
+- [Rumeenia / Română](/i18n/README.ro.md)
+- [Vene / Pусский](/i18n/README.ru.md)
+- [Serbia / Srpski](/i18n/README.sr.md)
+- [singhala / සිංහල](/i18n/README.si.md)
+- [Hispaania / Español](/i18n/README.es.md)
+- [Lihtsustatud hiina keel / 简体中文](/i18n/README.zh-cn.md)
+- [Rootsi / Svenska](/i18n/README.sv.md)
+- [Tai / ไทย](/i18n/README.th.md)
+- [Traditsiooniline hiina keel / 繁体中文](/i18n/README.zh-tw.md)
+- [Turkish / Türkçe](/i18n/README.tr.md)
+- [Ukraina / Українська](/i18n/README.uk.md)
+- [Vietnami keel / Tiếng Việt](/i18n/README.vi-vn.md)
+- [Tõlgete loetelu](/i18n/languages.md) <!--- Keep only this -->
 
 ---
 
-## Rėmėjai
+## Sponsorid
 
-[![Naujas rėmėjas](https://user-images.githubusercontent.com/10214025/90518111-e74bbb00-e198-11ea-8f88-c9e3c1aa4b5b.png)](https://github.com/sponsors/supabase)
+[![Uus sponsor](https://user-images.githubusercontent.com/10214025/90518111-e74bbb00-e198-11ea-8f88-c9e3c1aa4b5b.png)](https://github.com/sponsors/supabase)
