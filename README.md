@@ -10,9 +10,10 @@ You can find the relevant input/ output files in the `docs` folder, based on the
 - `original.md` - the Supabase README in english
 - `deepL_translated_{lang}.md` - the translated output using DeepL
 
-In the docs folder, you can also find `actual_translation_de.md`, an example of a user-contributed translation found in the `i18n` folder of the supabase repository. 
+In the docs folder, you can also find `actual_translation_de.md`, an example of a user-contributed translation found in the `i18n` folder of the supabase repository - it's a little outdated compared to the `original.md`.
 
-> 🔎 An interesting finding is that the user-contributed translation is relatively outdated compared to the `original.md`. This finding gave me the idea that perhaps we could add some automation, such as as a GitHub action in there to make sure that the translations are always up-to-date. This is WIP!
+> 🔎 This finding gave me the idea that perhaps we could add some automation, such as as a GitHub action in there to make sure that the translations are always up-to-date. This is WIP!
+
 
 ## Try it out yourself!
 
@@ -22,9 +23,11 @@ To try out this project,
 3. Replace the text at `original.md` with a text of your liking. Or you can just change the file name/path variables at `index.ts` to your liking.
 4. Run `yarn start` to see the output~
 
+✨ Cool stuff: The script actually creates another file `to_translate.md` with some modified text from the `original.md` so that certain terms won't be translated.
+
 ## Limitations of DeepL html tag handling
 
-Here are some limitations of DeepL that I've discovered while experimenting with this demo, with `tagHandling='html'`.
+Here are some limitations of DeepL that I've discovered while experimenting with this demo, with `tagHandling='html'`, which i have changed to `tagHandling='xml'` eventually. Read on if you're keen!
 
 ### Excluding specific HTML elements for translation
 
