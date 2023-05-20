@@ -29,6 +29,8 @@ To try out this project,
 
 Here are some limitations of DeepL that I've discovered while experimenting with this demo, with `tagHandling='html'`, which i have changed to `tagHandling='xml'` eventually. (Check out commit 3e6732b25c1a1f6c9814247dc3d93392eca59ba3 for the differences) 
 
+Some of these issues still happen in `tagHandling='xml'` though.
+
 Read on if you're keen!
 
 <details>
@@ -43,7 +45,7 @@ I briefly tested the translation with a HTML element as such, and it does remain
 <p translate="no">Rust</p>
 ```
 
-However, if the HTML element that should not be translated is a nested child, the element will get translated. In the fact, 
+However, if the HTML element that should not be translated is a nested child, the element will get translated. 
 
 > en
 > ```
@@ -160,4 +162,16 @@ ja
     <th colspan="5">Feature-Clients (Supabaseクライアントにバンドル)</th></th>。
 ```
 
+### Example 3
+
+EN
+
+```
+<th colspan="7">💚 Community 💚</th>
+```
+
+pt-BR
+```
+<th colspan="7">comunidade 💚 💚</th>
+```
 </details>

@@ -18,7 +18,7 @@ function replaceAll(str: string, search: string, replacement: string): string {
       index = str.indexOf(search);
     }
     return str;
-  }
+}
 
 (async () => {
     fs.readFile(inputFilePath, 'utf8', async function (err, text) {
