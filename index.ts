@@ -7,7 +7,18 @@ const translator = new deepl.Translator(authKey);
 const inputFilePath = 'docs/original.md';
 const toTranslateFilePath = 'docs/to_translate.md';
 const outputFileNamePrefix = 'docs/README';
-const termsToIgnoreForTranslation: string[] = ['Rust', 'Swift', 'Ruby', 'Python', 'Flutter', 'Java'];
+const termsToIgnoreForTranslation: string[] = [];
+const starTagForNoTranslate = '<!-- notranslate -->';
+const endTagForNoTranslate = '<!-- /notranslate -->';
+
+function replaceAll(str: string, search: string, replacement: string): string {
+    let index = str.indexOf(search);
+    while (index != -1) {
+      str = str.replace(search, replacement);
+      index = str.indexOf(search);
+    }
+    return str;
+  }
 
 (async () => {
     fs.readFile(inputFilePath, 'utf8', async function (err, text) {
@@ -19,7 +30,10 @@ const termsToIgnoreForTranslation: string[] = ['Rust', 'Swift', 'Ruby', 'Python'
             text = text.replace(new RegExp(term, 'g'), `<keep>${term}</keep>`)
         })
 
-        fs.writeFile(toTranslateFilePath, text, function (err) {
+        const textWithNoTranslateStartTagReplaced = replaceAll(text, starTagForNoTranslate, '<keep>')
+        const textWithNoTranslateEndTagReplaced = replaceAll(textWithNoTranslateStartTagReplaced, endTagForNoTranslate, '</keep>')
+
+        fs.writeFile(toTranslateFilePath, textWithNoTranslateEndTagReplaced, function (err) {
             if (err) return console.log(err);
             console.log(`Created file to be translated`)
         })
@@ -45,7 +59,13 @@ const termsToIgnoreForTranslation: string[] = ['Rust', 'Swift', 'Ruby', 'Python'
                 }
             );
     
-            fs.writeFile(`${outputFileNamePrefix}.${targetLang}.md`, textResult.text, function (err) {
+            const translatedText = textResult.text;
+            
+            // remove added keep tags
+            const textWithNoTranslateStartTagReplaced = replaceAll(translatedText, '<keep>', '')
+            const textWithNoTranslateEndTagReplaced = replaceAll(textWithNoTranslateStartTagReplaced, '</keep>', '')
+            
+            fs.writeFile(`${outputFileNamePrefix}.${targetLang}.md`, textWithNoTranslateEndTagReplaced, function (err) {
                 if (err) return console.log(err);
                 console.log(`Translated ${targetLang}`)
             });

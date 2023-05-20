@@ -31,6 +31,8 @@ Here are some limitations of DeepL that I've discovered while experimenting with
 
 Read on if you're keen!
 
+<details>
+
 ### Excluding specific HTML elements for translation
 
 In their [docs for disabling translation of elements](https://www.deepl.com/docs-api/html/disabling/), they mentioned that the translation engine respects the `translate="no"` and `class="notranslate"` attributes.
@@ -59,7 +61,7 @@ The same happens even if we use `class="notranslate"` instead of `translate="no`
 
 ### Formatting
 
-In **certain languages**, certain HTML elements don't retain their formatting as expected. 
+In **certain languages**, certain HTML elements don't retain their formatting as expected. This happens even in XML tag handling. 
 
 #### Example 1
 
@@ -157,3 +159,5 @@ ja
     <th>クライアント</th></th
     <th colspan="5">Feature-Clients (Supabaseクライアントにバンドル)</th></th>。
 ```
+
+</details>
