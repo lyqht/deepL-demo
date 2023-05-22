@@ -1,0 +1,17 @@
+name: Translate documents from docs/simple folder 
+on: 
+  workflow_dispatch: 
+  pull_request: 
+    types: [opened, synchronize] 
+
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: DeepL Translate Github Action 
+        uses: lyqht/deepl-translate-github-action@v0.0.1
+        with: 
+          target_languages: zh,ja 
+          input_file_path: docs/simple/original.md 
+          output_file_name_prefix: docs/simple/
+          deepl_api_key: ${{ secrets.DEEPL_API_KEY }} 
