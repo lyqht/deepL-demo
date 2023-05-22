@@ -4,7 +4,19 @@ This is a project to showcase a simple demo of translating a document from Engli
 
 At the moment of publishing this project, DeepL `v1.9.0` supports **31 languages**!
 
-In this demo, the [Supabase README.md](https://github.com/supabase/supabase) is used as the document to be translated.
+There are 2 examples in this project.
+
+## Example 1: Translating a simple document
+
+In this demo, a [short and simple text](docs/simple/original.md) is used as the document to be translated. It is translated using the [deepl-translate-github-action](https://github.com/lyqht/deepl-translate-github-action), and a demo can be found in [this PR](https://github.com/lyqht/deepL-demo/pull/2/files).
+
+### Try it out yourself!
+
+Create a project that has a github workflow like [translate.yml](.github/workflows/translate.yml) in this project, and follow the instructions there at the [deepl-translate-github-action](https://github.com/lyqht/deepl-translate-github-action) README.
+
+## Example 2: Translating Supabase README 
+
+In this demo, the [Supabase README.md](https://github.com/supabase/supabase) is used as the document to be translated. It is a relatively complicated document compared to the previous example.
 
 You can find the relevant input/ output files in the `docs/supabase` folder, based on the name of the file:
 - `original.md` - the Supabase README in english
@@ -12,10 +24,8 @@ You can find the relevant input/ output files in the `docs/supabase` folder, bas
 
 In the docs folder, you can also find `actual_translation_de.md`, an example of a user-contributed translation found in the `i18n` folder of the supabase repository - it's a little outdated compared to the `original.md`.
 
-> 🔎 This finding gave me the idea that perhaps we could add some automation, such as as a GitHub action in there to make sure that the translations are always up-to-date. This is WIP!
 
-
-## Try it out yourself!
+### Try it out yourself!
 
 To try out this project, 
 1. Create a [DeepL account](https://www.deepl.com/docs-api) and get an API key.
@@ -25,9 +35,10 @@ To try out this project,
 
 ✨ Cool stuff: The script actually creates another file `to_translate.md` with some modified text from the `original.md` so that certain terms won't be translated.
 
+
 ## Limitations of DeepL html tag handling
 
-Here are some limitations of DeepL that I've discovered while experimenting with this demo, with `tagHandling='html'`, which i have changed to `tagHandling='xml'` eventually. (Check out commit 3e6732b25c1a1f6c9814247dc3d93392eca59ba3 for the differences) 
+Here are some limitations of DeepL that I've discovered while experimenting with its API with `tagHandling='html'`.
 
 Some of these issues still happen in `tagHandling='xml'` though.
 
