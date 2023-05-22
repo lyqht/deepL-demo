@@ -6,7 +6,7 @@ At the moment of publishing this project, DeepL `v1.9.0` supports **31 languages
 
 In this demo, the [Supabase README.md](https://github.com/supabase/supabase) is used as the document to be translated.
 
-You can find the relevant input/ output files in the `docs` folder, based on the name of the file:
+You can find the relevant input/ output files in the `docs/supabase` folder, based on the name of the file:
 - `original.md` - the Supabase README in english
 - `README.{lang}.md` - the translated output using DeepL
 
