@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: DeepL Translate Github Action 
-        uses: lyqht/deepl-translate-github-action@v0.0.1
+        uses: lyqht/deepl-translate-github-action@v1.0.0
         with: 
           target_languages: zh,ja 
           input_file_path: docs/simple/original.md 
